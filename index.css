@@ -1,0 +1,666 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: white; */
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+#parent{
+    height: auto;
+    width: 100%;
+    height: auto;
+    /* border: 2px solid blue; */
+    
+}
+
+#navbar{
+    width: 100%;
+    height: 88px;
+    /* border: 2px solid black; */
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.mylogo{
+    
+    height: auto;
+    width: 60px;
+    /* border: 1px solid black; */
+    margin-left: 60px;
+    display: flex;
+    margin-top: 5px;
+    
+}
+img{
+    width: 100%;
+    
+}
+.imglogo{
+
+    width: 100%;
+    height: 50px;
+    /* border: 1px solid black; */
+    margin: auto;
+    
+
+}
+ul li{
+    display: inline-block;
+    margin-right: 30px;
+    line-height: 88px;
+    font-size: 14.4px;
+    color: rgb(40,44,63);
+    font-weight: 550;
+    /* border: 1px solid; */
+
+
+    
+    
+}
+.underline{
+    text-decoration: none;
+    color: rgb(40,44,63);
+    position: relative;
+}
+.underline:after{
+    content: "";
+    position: absolute;
+    background-color: #ff3c78;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -32.5px; 
+}
+.underline:hover::after{
+    width: 100%;
+    
+}
+ul{ 
+   padding: 0px 35px;
+   margin: auto;
+   /* background-color: #ff3c78; */
+   /* border: 1px solid blue; */
+}
+.inputbox{
+
+    width: 480px;
+    height: 40px;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-left: 10px;
+    position: relative;
+    background-color:  rgb(236, 236, 250);
+    box-shadow: rgba(177, 184, 190, 0.2) 0px 8px 24px;
+    
+    
+    
+}
+.dropdown3{
+    display: none;
+}
+.iconhover:hover .dropdown3{
+    display: block;
+    position: absolute;
+    background-color: #ff3c78;
+    width: 150px;
+    text-align: center;
+    margin-top: 23px;
+    margin-left: -10px;
+    
+
+}
+.dropdown3 .link{
+  display: block;
+  padding: 20px;
+  display: grid;
+  grid-template-rows: repeat(3,45px);
+  gap: 20px; 
+}
+.dropdown3 .link div{
+    border: 1px  solid white;
+    line-height: 45px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+
+   
+    
+    
+}
+.dropdown3 div a .buttonlogin1{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    font-size: 17px;
+    color: #ff3c78
+}
+.dropdown3 div a .buttonlogin1:hover{
+    border: 1px solid #ff3c78;
+}
+
+
+
+
+input{
+    position: absolute;
+    width: 400px;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 0 10px;
+    background-color:  rgb(236, 236, 250);
+    /* background-color: rgb(255, 250, 250); */
+    
+    
+}
+.inputbox>i{
+
+    line-height: 40px;
+    padding: 0 15px;
+    background-color:  rgb(236, 236, 250);
+}
+.bag{
+   width: 194px;
+   height: auto;
+   /* border: 1px solid green; */
+   margin: auto;
+   display: grid;
+   grid-template-columns: repeat(3,1fr); 
+}
+.bag > div{
+    /* border: 1px solid black; */
+    display: grid;
+    
+}
+.icon{
+
+    width: 24px;
+    height: 24px;
+    /* border: 1px solid black; */
+    margin: auto;
+    align-items: center;
+    display: flex;
+}
+#icon1{
+
+    width: 24px;
+    height: 24px;
+    /* border: 1px solid black; */
+    margin: auto;
+    align-items: center;
+    display: flex;
+    
+}
+.type{
+
+    width: auto;
+    height: auto;
+    /* border: 1px solid black; */
+    margin: auto;
+}
+.ptag{
+
+    font-size: 14.3px;
+    /* font-weight: 550; */
+    color:  rgb(40,44,63);;
+}
+#ptag1{
+
+    font-size: 14.3px;
+    /* font-weight: 550; */
+    color:  rgb(40,44,63);;
+}
+.dropdown{
+    display: none;
+}
+ li:hover .dropdown{
+    display: block;
+    position: absolute;
+    height: 580px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    width: 80%;
+    margin-top: -3px;
+    /* border: 1px solid black; */
+    /* margin-right: 10px; */
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; 
+
+
+}
+.dropdown li {
+    display: block;
+    line-height: 35px;
+    padding: 0 20px;
+    /* color: white; */
+  
+    
+
+    
+}
+
+.dropdown ul{
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    
+}
+
+
+
+.midleparent{
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    /* border: 1px solid rgb(123, 28, 28); */
+    background-color: white;
+    /* position: fixed; */
+}
+
+/* .sliderimgfix{
+    width: 100%;
+    height: 100%;
+    border: 1px solid blue;
+    
+
+
+} */
+.dotbutton{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 5px;
+}
+.dot{
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+    align-items: center;
+    background-color: rgb(223,223,226);
+    border: 0;
+    
+}
+.dot:hover{
+    background-color: rgb(126,129,140);
+}
+.heading{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-top: 60px;
+    display: flex;
+}
+.heading1{
+    height: auto;
+    width: auto;
+    /* border: 1px solid black; */
+    margin: auto;
+    font-size: 28.8px;
+    color: rgb(62,65,82);
+    color: #3E4152;
+    margin: 50px 0px 10px 30px;
+    letter-spacing: 4px;
+}
+
+
+img{
+    width: 100%;
+    /* height: 100%; */
+}
+.menbox{
+    height: auto;
+    width: 100%;
+    margin-top: 40px;
+    /* border: 1px solid black; */
+    
+}
+.sliderimg2{
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    /* border: 1px solid green; */
+}
+.sliderimg2>div{
+    height: auto;
+    /* border: 1px solid black; */
+}
+.sliderimg3{
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    /* border: 1px solid green; */
+}
+.sliderimg3>div{
+    height: auto;
+    /* border: 1px solid black; */
+}
+.imgbox1{
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(5,1fr);
+    /* border: 1px solid yellow; */
+
+}
+.imgbox1>div{
+    height: auto;
+    /* border: 1px solid black; */
+    display: grid;
+    
+
+}
+.midlebox2{
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    /* border: 1px solid; */
+
+}
+
+
+
+
+hr{
+    width: 185px;
+    color: gray;
+}
+.dropdown div{
+    /* border: 1px solid black; */
+    background-color: white;
+
+}
+
+.dropdown2{
+    display: none;
+}
+ul li:hover.dropdown2{
+    display: block;
+    position: absolute;
+    height: 580px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    width: 80%;
+    margin-top: 0px;
+    border: 1px solid black;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  
+
+
+}
+.dropdown2 ul li {
+    display: block;
+    line-height: 35px;
+    padding: 0 20px;
+    /* color: white; */
+    
+   
+  
+    
+
+    
+}
+.dropdown2 ul{
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    
+}
+#footer{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-top: 55px;
+    display: flex;
+    background-color: rgb(250,251,252);
+    /* box-shadow: 0px 0px 10px rgb(250,251,252); */
+}
+.insidebox{
+    height: auto;
+    width: 80%;
+    /* border: 1px solid black; */
+    margin: auto;
+    display: flex;
+    background-color: rgb(250,251,252);
+}
+.online{
+    height: auto;
+    width: auto;
+    /* border: 1px solid black; */
+    padding: 20px;
+    background-color: rgb(250,251,252);
+    
+}
+.footerlink{
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(105,107,121);
+    font-size: 15px;
+    background-color: rgb(250,251,252);   
+}
+.app{
+    height: auto;
+    width: auto;
+    /* border: 1px solid black; */
+    padding: 20px;
+ 
+}
+.mobileapp{
+
+    width: auto;
+    height: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 10px;
+}
+.app1{
+    height: 42px;
+    width: 139px;
+    /* border: 1px solid black; */
+}
+.app2{
+    height: 42px;
+    width: 122px;
+    /* border: 1px solid black; */
+}
+.socialmedia{
+
+    width: auto;
+    height: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 15px;
+}
+.socialmedia1{
+    height: 22px;
+    width: 22px;
+    /* border: 1px solid black; */
+    
+}
+.socialmedia3{
+    height: 20px;
+    width: 30px;
+
+}
+.details{
+    width: auto;
+    height: auto;
+    /* border: 1px solid black; */
+    padding: 20px;
+    
+    
+}
+#logoimg{
+    width: auto; 
+    height: auto;
+    display: flex;
+    gap: 10px;
+
+}
+.logo1{
+    height: 40px;
+    width: 48px;
+    /* border: 1px solid black; */
+
+}
+.text{
+    height: 40px;
+    width: auto;
+    /* border: 1px solid; */
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    
+    
+}
+.logo2{
+    width: 48px;
+    height: 49px;
+    /* border: 1px solid; */
+}
+.footerlink1{
+  
+    margin-top: 30px;
+    padding: 5px;
+}
+#checkbtn{
+    float: right;
+    line-height: 88px;
+    margin-right: 10px;
+    font-size: 30px;
+    display: none;
+
+}
+#check{
+ 
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+@media all and (min-width:50px) and (max-width:1487px){
+
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        background-color: white;
+    }
+    ul li{
+      
+        display: inline-block;
+        
+        
+            
+    }
+    ul{
+        /* border: 1px solid black; */
+        width: auto;
+       
+    }
+    .mylogo{
+      /* display: none; */
+      margin: auto;
+      margin-top: 10px;
+      
+    }
+    .inputbox{
+
+        /* border: 1px solid black; */
+        margin: auto
+    
+        
+    }
+    .bag{
+        margin-top: 5px;
+    }
+    .midleparent{
+        width: 100%;
+        /* height: 1000px; */
+        margin-top: 250px;
+        
+        /* border: 1px solid rgb(123, 28, 28); */
+    }
+    .details{
+        display: none;
+    }
+
+
+
+}
+
+@media all and (min-width:50px) and (max-width:680px){
+
+    #navbar{
+
+        display: flex;
+        flex-direction: row;
+        /* border: 1px solid black; */
+        align-items: center;
+    
+    }
+
+    ul li{
+        display: none;
+    }
+    .inputbox{
+
+        display: none;
+
+    }
+    .bag{
+
+        width: 150px;
+        /* border: 1px solid black; */
+        margin-right: 10px;
+
+    
+    }
+    .midleparent{
+        width: 100%;
+        /* height: 1000px; */
+        margin-top: 65px;
+        /* border: 1px solid rgb(123, 28, 28); */
+    }
+    .mylogo{
+        /* border: 1px solid; */
+        margin-left: 10px;
+    }
+    .app1{
+       
+        width: 60px;
+
+    }
+    .app2{
+        width: 60px;
+    }
+    .socialmedia{
+        width: 80px;
+    }
+   
+    
+    
+   
+ 
+  
+
+
+
+}
